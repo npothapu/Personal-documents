@@ -1,0 +1,20 @@
+Distinct misspelled words on https://www.teenvoice.com/about-us: [
+  'for-profit',      'american',     'teen-centric',
+  'time-consuming',  'weve',         'hard-to-reach',
+  'panelsteenvoice', 'always-on',    'evolveme',
+  'incentivized',    'points-based', 'theyre',
+  'colarusso',       'bio',          'haggerty',
+  'paige',           'hanlon',       'kaylee',
+  'johnson',         'phd',          'amanda',
+  'keighley',        'swarna',       'mannar',
+  'mannan',          'caroline',     'pettinato',
+  'tyler',           'raymond',      'casey',
+  'reardon',         'anthony',      'salerno',
+  'evelyn',          'shannon',      'waldvogel',
+  'alan',            'alisa',        'wilke',
+  'future-planning'
+]
+Error checking link https://www.teenvoice.com/about-us: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 40

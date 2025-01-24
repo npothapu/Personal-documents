@@ -1,0 +1,78 @@
+Executing link 58 of 65: https://www.teenvoice.com/insights/youll-be-surprised-by-these-facts-about-teens-and-ai
+Extracted Page Text: This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. To learn more, view the following link: Privacy Policy
+FEATURES
+INSIGHTS
+ABOUT US
+LOGIN
+GET STARTED
+
+DIGITAL LIFE
+
+You’ll Be Surprised By These Facts About Teens and AI
+
+PUBLISHED DATE: JULY 17, 2024
+
+You might think that teens would welcome AI with open arms. After all, it’s a lot of fun... it makes it easy to “write” a paper by simply copying an assignment into a prompt. You can use it to invent new music, and even create awesome images of imaginary worlds.
+
+
+
+Some teens do embrace AI. But a significant majority of teens are worried. More than 90% have thought about the impact of AI, and 64% of teens across all demographics say they are moderately to very worried about its impact.
+
+
+
+For the most part, teens are worried about exactly the same things their parents are worried about. Could AI leave me unemployed? Could I be conned by an AI scam, and wind up losing all my money? Is AI going to steal my face? Says one 12th grader, “GenAI will be used in a lot of design and data analysis jobs. It can completely take over some jobs in those areas, though there will still be humans needed to edit the ideas of GenAI. Its presence has made me search for careers that are safe from AI takeover”
+
+
+
+Just like many older adults, teens are also worried about AI as a possible existential threat to humanity.
+
+
+
+37% of teens worry that AI will make human-generated content unnecessary – thereby eliminating the need for (or potentially even the desire for) creativity. This could mean fewer teens headed for creative careers in areas such as graphic design, writing, film, or even architecture.
+
+
+
+A full third of teens think there’s a real chance that AI will become self-aware and target humans. The result, presumably, would be a Terminator-style takeover of the planet by sentient, computer-based beings. Is this a realistic concern? Almost certainly not. But it’s a real one. And this doomsday scenario is heavily promoted on social media, with hundreds of YouTube and TikTok videos available on topics such as “How AI Will Destroy Humanity.”
+
+
+How can marketers and service providers to the teen market respond to this ambivalent feeling about AI? Here are some steps you may wish to consider.
+
+
+
+-Avoid using obviously artificially created content on social media. While it’s more expensive to hire an illustrator or photographer, your content will appear more trustworthy to the average teen.
+
+-When creating interactive experiences for teens, include a real human face and/or voice – even if you make use of AI to develop some of those experiences.
+
+-Offer real-world opportunities to get to know you, your offerings, or your products. While teens “live” on social media, they need opportunities to engage in the real world.
+
+-If you work with teens directly, consider providing opportunities for them to learn more about AI—what it is, what it isn’t, what it can offer, and what it might take away. Help teens take control over a technology that will, no matter what, have a big impact on their futures.
+
+Quick Links
+
+SURVEY BUILDER
+INSIGHTS
+FEATURES
+ABOUT US
+FAQ
+LOGIN
+PRIVACY POLICY
+COMMERCIAL TERMS & CONDITIONS
+
+EVOLVEME
+
+a free future-planning site for teens
+
+ⓒ 2024 TeenVoice. All rights reserved.
+Distinct Misspelled Words: [
+  'youll',          'july',
+  '17',             '90',
+  '64',             'genai',
+  '37',             'human-generated',
+  'self-aware',     'terminator-style',
+  'computer-based', 'tiktok',
+  '-avoid',         '-when',
+  'andor',          '-offer',
+  'real-world',     '-if',
+  'aiwhat',         'isnt',
+  'evolveme',       'future-planning'
+]

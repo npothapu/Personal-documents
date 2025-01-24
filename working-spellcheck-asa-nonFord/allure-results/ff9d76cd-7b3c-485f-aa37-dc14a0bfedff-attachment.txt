@@ -1,0 +1,15 @@
+Distinct misspelled words on https://www.teenvoice.com/insights/saving-to-spend-teens-and-their-money: [
+  'july',            '17',
+  'theyre',          'two-thirds',
+  'short-term',      '10',
+  'teenaged',        'im',
+  'covid-19',        'dont',
+  'theyll',          'well-being',
+  'well-rounded',    'gamification',
+  'long-term',       'evolveme',
+  'future-planning'
+]
+Error checking link https://www.teenvoice.com/insights/saving-to-spend-teens-and-their-money: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 17

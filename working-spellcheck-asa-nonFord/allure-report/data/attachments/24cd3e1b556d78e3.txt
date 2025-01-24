@@ -1,0 +1,163 @@
+Executing link 5 of 65: https://www.teenvoice.com/about-us
+Extracted Page Text: This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. To learn more, view the following link: Privacy Policy
+FEATURES
+INSIGHTS
+ABOUT US
+LOGIN
+GET STARTED
+
+Elevating The Voices of Tomorrow
+
+TeenVoice, a wholly owned for-profit subsidiary of national nonprofit American Student Assistance, gives teens and young adults a platform to voice their opinions and preferences while providing teen-centric organizations with a quick and intuitive way to gain deep market research insights on their target audience.
+
+Why TeenVoice?
+
+Bridging The Gap
+
+Teen market research recruitment is typically time-consuming, inefficient, and expensive. Because we’ve mastered engaging them on their terms, we’re able to connect you with this notoriously hard-to-reach demographic. No static lists or unreliable panels—TeenVoice connects you with this proprietary, always-on teen audience to help you make informed decisions.
+
+Trusted By Teens
+
+Daily, tens of thousands of teens are using our product EvolveMe, incentivized by a points-based rewards system to build life skills and plan for their futures after high school.
+
+Understanding The Future They Want to See
+
+TeenVoice enables organizations to tap into genuine Gen Z insights while giving young people the ability to actively take part in shaping the world around them.
+
+Our Beliefs
+
+Teens should have a voice in designing the world they are going to inherit
+
+They should be at the center of informing decisions that will impact their lives and future.
+
+Learning from teens is harder than it should be
+
+Recruiting and engaging them is typically time consuming, inefficient and expensive.
+
+How you communicate with teens matters
+
+TeenVoice engages with teens on their terms, in an environment where they’re already learning and exploring.
+
+Our Team
+
+From insight analysts to market research consultants, our team has the expertise you need to get started.
+
+CLAY COLARUSSO
+
+Strategy
+
+VIEW BIO
+HEATHER HAGGERTY
+
+Marketing
+
+VIEW BIO
+PAIGE HALL
+
+Marketing
+
+VIEW BIO
+LILY HANLON
+
+Product
+
+VIEW BIO
+KAYLEE JOHNSON, PH.D.
+
+Research and Insights
+
+VIEW BIO
+AMANDA KEIGHLEY
+
+Business Development
+
+VIEW BIO
+SWARNA MANNAR MANNAN
+
+Research and Insights
+
+VIEW BIO
+CAROLINE PETTINATO
+
+Marketing
+
+VIEW BIO
+TYLER RAYMOND
+
+Research and Insights
+
+VIEW BIO
+CASEY REARDON
+
+Business Development
+
+VIEW BIO
+ANTHONY SALERNO
+
+Business Development
+
+VIEW BIO
+EVELYN VAN TILL
+
+Business Development
+
+VIEW BIO
+SHANNON WADE
+
+Product
+
+VIEW BIO
+LEE WALDVOGEL
+
+Business Development
+
+VIEW BIO
+ALAN WHITE
+
+Research & Insights
+
+VIEW BIO
+ALISA WILKE
+
+Product
+
+VIEW BIO
+
+Get in Touch
+
+Have a question or want a demo? Our TeenVoice team is here to help. Reach out to us via our support email and we will get back to you in a timely manner.
+
+CONTACT US
+
+Quick Links
+
+SURVEY BUILDER
+INSIGHTS
+FEATURES
+ABOUT US
+FAQ
+LOGIN
+PRIVACY POLICY
+COMMERCIAL TERMS & CONDITIONS
+
+EVOLVEME
+
+a free future-planning site for teens
+
+ⓒ 2024 TeenVoice. All rights reserved.
+Distinct Misspelled Words: [
+  'for-profit',      'american',     'teen-centric',
+  'time-consuming',  'weve',         'hard-to-reach',
+  'panelsteenvoice', 'always-on',    'evolveme',
+  'incentivized',    'points-based', 'theyre',
+  'colarusso',       'bio',          'haggerty',
+  'paige',           'hanlon',       'kaylee',
+  'johnson',         'phd',          'amanda',
+  'keighley',        'swarna',       'mannar',
+  'mannan',          'caroline',     'pettinato',
+  'tyler',           'raymond',      'casey',
+  'reardon',         'anthony',      'salerno',
+  'evelyn',          'shannon',      'waldvogel',
+  'alan',            'alisa',        'wilke',
+  'future-planning'
+]

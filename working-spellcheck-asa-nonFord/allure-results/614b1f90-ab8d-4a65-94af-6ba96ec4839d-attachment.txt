@@ -1,0 +1,28 @@
+Distinct misspelled words on https://www.wpp.com/en-us/investors/shareholder-centre/stabilisation-at-fca: [
+  'wpp',       'iq',          'centre',   'stabilisation',
+  'fca',       'faqs',        'plc',      '11',
+  'june',      '2018',        'pdf',      '128kb',
+  '135kb',     '110kb',       '106kb',    '113kb',
+  '101kb',     '31',          '102kb',    '30',
+  '93kb',      '29',          '104kb',    '24',
+  '23',        '95kb',        '22',       '21',
+  '117kb',     '18',          '86kb',     '17',
+  '16',        '85kb',        '15',       '83kb',
+  '14',        '91kb',        '10',       '87kb',
+  '09',        '94kb',        '08',       '04',
+  '89kb',      '03',          '92kb',     '20',
+  '201kb',     '19',          '178kb',    '176kb',
+  '173kb',     '177kb',       '210kb',    '07',
+  '68kb',      '06',          '184kb',    '05',
+  '199kb',     '02',          '248kb',    'december',
+  '2017',      'november',    'october',  'september',
+  '13',        '12',          '25',       '26',
+  '27',        '2016',        '28',       '01',
+  'xlsx',      "wpp's",       'intranet', 'facebook',
+  'instagram', 'linkedin',    'youtube',  '1999-2025',
+  'wppcom',    'personalise'
+]
+Error checking link https://www.wpp.com/en-us/investors/shareholder-centre/stabilisation-at-fca: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 86

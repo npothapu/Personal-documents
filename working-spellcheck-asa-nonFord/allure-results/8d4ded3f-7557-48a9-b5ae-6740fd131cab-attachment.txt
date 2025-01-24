@@ -1,0 +1,20 @@
+Distinct misspelled words on https://www.teenvoice.com/insights/three-ways-adults-completely-misunderstand-teens-digital-lives: [
+  'december',      '13',
+  '1000',          '71',
+  '65',            '57',
+  '33',            'videomobile',
+  '26',            '64',
+  '22',            '21',
+  '40',            'memes',
+  '39',            'liveshow',
+  'themselvesnot', 'all-consuming',
+  'arent',         '15-year-old',
+  'illinois',      'theyre',
+  'tone-deaf',     'isnt',
+  'technologyits', "teens'",
+  'evolveme',      'future-planning'
+]
+Error checking link https://www.teenvoice.com/insights/three-ways-adults-completely-misunderstand-teens-digital-lives: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 28

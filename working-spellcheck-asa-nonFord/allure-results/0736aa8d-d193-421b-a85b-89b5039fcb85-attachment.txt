@@ -1,0 +1,78 @@
+Executing link 61 of 65: https://www.teenvoice.com/insights/saving-to-spend-teens-and-their-money
+Extracted Page Text: This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. To learn more, view the following link: Privacy Policy
+FEATURES
+INSIGHTS
+ABOUT US
+LOGIN
+GET STARTED
+
+TEEN LIFE
+
+Saving to Spend: Teens and Their Money
+
+PUBLISHED DATE: JULY 17, 2024
+
+Today’s teens know they’re going to need money in the future and many are worried about their future financial stability… but beyond that, their approaches to money management and financial planning are a little fast and loose.
+
+
+
+In general, more teens say they’re managing – or trying to manage – their money than not. Quite a lot of teens — two-thirds of them, in fact — tell us they are putting money into savings accounts. But only some teens are budgeting, tracking spending, using debit cards, or trying to learn about taxes or how to pay for education after high school.
+
+
+It’s when you ask them about the “why?” behind putting money into savings that it becomes clear their focus is more decidedly short-term. The most common reason for savings was, well, for the sake of having savings; even then, only 4 of 10 teens gave this response.
+
+
+
+It appears that teens are primarily saving money to spend money. The most common reasons are to help pay for future education or to spend on hobbies and interests. Other priorities included a car, clothing and beauty products, gaming, travel, and event tickets. Some teens (not many) say the money is for investing or housing costs.
+
+
+
+All and all, they sound a lot like their teenaged forebears.
+
+
+
+But there is interest in learning to do more with their savings, especially in the long term. Asked to identify with various statements about their view on finances, such as “I am a saver more than a spender” or “I tend to stick within a budget when I’m shopping,” fully half of teens either strongly agreed or agreed with the statement “I worry a lot about my financial stability in the future.”
+
+
+
+That’s a huge flag they’re waving, and it deserves our attention. This generation of teens was raised during the COVID-19 pandemic where many saw their families undergo great economic turbulence, and then watched the generation ahead of them plunge into adulthood amidst high inflation, a housing crisis, and a difficult job market. It’s where the comparison to their forebears falters, because they don’t have the same confidence that they’ll do as well as their parents, much less better.
+
+
+
+Thus, teens could respond very well to organizations that can offer them financial literacy and help them develop good habits. They’re already savers, but if most of that money is going toward video games and weekend excursions with friends then they won’t benefit from the saving habit. Fiscal responsibility has never really played well to teenage ears since… well. But given their experiences with macroeconomic upheaval, it’s a tune they’re more likely to dance to these days.
+
+
+
+The key, of course, is less to capture their interest than to make your offerings interesting. By exposing teens to different financial activities — and connecting those activities with their future financial well-being — organizations can help teens develop a more well-rounded approach to finances. Tying those lessons into the activities they love is a good way to win them over: Gamification, or simulations involving hobbies and activities, or challenges that test their skills against benchmarks that represent their personal long-term goals for education and career.
+
+
+
+That’s how one might grow a generation that’s big on savings into a generation that’s big on saving purposefully.
+
+Quick Links
+
+SURVEY BUILDER
+INSIGHTS
+FEATURES
+ABOUT US
+FAQ
+LOGIN
+PRIVACY POLICY
+COMMERCIAL TERMS & CONDITIONS
+
+EVOLVEME
+
+a free future-planning site for teens
+
+ⓒ 2024 TeenVoice. All rights reserved.
+Distinct Misspelled Words: [
+  'july',            '17',
+  'theyre',          'two-thirds',
+  'short-term',      '10',
+  'teenaged',        'im',
+  'covid-19',        'dont',
+  'theyll',          'well-being',
+  'well-rounded',    'gamification',
+  'long-term',       'evolveme',
+  'future-planning'
+]

@@ -1,0 +1,76 @@
+Executing link 59 of 65: https://www.teenvoice.com/insights/four-tips-for-reaching-teens-through-their-hobbies
+Extracted Page Text: This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. To learn more, view the following link: Privacy Policy
+FEATURES
+INSIGHTS
+ABOUT US
+LOGIN
+GET STARTED
+
+TEEN LIFE
+
+Four Tips for Reaching Teens Through Their Hobbies
+
+PUBLISHED DATE: JULY 17, 2024
+
+Our surveys tell us that teens’ number one hobby, across all ages and demographics, is gaming (playing video games). Their number two hobby is sports -- and 29% enjoy both gaming and sports rather than one or the other or neither. Other hobbies and activities, such as performing arts, cooking, and fitness are far less popular.
+
+
+
+These facts, which reflect the views of thousands of teens from middle through high school, seem to suggest a streamlined approach to reaching teens directly. There will always be plenty of teens dedicated to gaming and sports. The reality, however, is that the data is more nuanced, which means your outreach strategy may need several different strands.
+
+
+To start with, there is a significant disparity between hobbies enjoyed by girls and those enjoyed by boys. Yes, there are plenty of girls who enjoy gaming, and quite a few boys who like to read, but gender stereotypes are still very much in play. Top hobbies for girls, perhaps not surprisingly, include cooking, performing arts, and creative writing. Meanwhile, boys gravitate toward more “masculine” activities such as fitness and outdoor activities. LGBTQ+ teens, in general, prefer creative hobbies such as performing and visual arts and music.
+
+
+
+Teens’ interest in hobbies also varies based on age, race, and academic achievement. In general, fewer Black teens are involved in any hobbies than white, Asian, or Hispanic teens. At the same time, teens who achieve more academically are also less likely to participate in hobbies.
+
+
+
+If your organization is interested in reaching teens, it makes sense to connect with them through their hobbies. It’s important, however, to bear these important points in mind as you segment your market and develop you outreach plan:
+
+
+
+-If you’re interested in reaching “all” teens, you can start with a focus on video games on sports – but be aware that you’ll miss at least a quarter of all teens with that strategy, and that the biggest group you’ll reach will be white boys.
+
+
+
+-Despite attempts to support teens in non-gender stereotyped activities, boys tend to prefer “masculine” hobbies while girls prefer “feminine” hobbies. You won’t find many boys in a cooking class, nor will you find many girls at a body-building gym.
+
+
+
+-You can reach most white teens with fair to moderate grades through their hobbies. You may however, need different strategies for reaching Black teens or high academic achievers.
+
+
+
+-While you can reach many teens online, many are also out in the real world participating in sports, reading, cooking, creative writing, music, and more. A good strategy may start online, but won’t neglect the need to reach teens where they are in the “real” world.
+
+
+
+Quick Links
+
+SURVEY BUILDER
+INSIGHTS
+FEATURES
+ABOUT US
+FAQ
+LOGIN
+PRIVACY POLICY
+COMMERCIAL TERMS & CONDITIONS
+
+EVOLVEME
+
+a free future-planning site for teens
+
+ⓒ 2024 TeenVoice. All rights reserved.
+Distinct Misspelled Words: [
+  'july',            '17',
+  '--',              '29',
+  'lgbtq',           'asian',
+  'hispanic',        '-if',
+  'youre',           'youll',
+  '-despite',        'non-gender',
+  'body-building',   '-you',
+  '-while',          'evolveme',
+  'future-planning'
+]

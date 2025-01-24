@@ -1,0 +1,5 @@
+Distinct misspelled words on https://www.teenvoice.com/insights/making-the-grade-teens-top-priority: [ 'july', '17', 'evolveme', 'future-planning' ]
+Error checking link https://www.teenvoice.com/insights/making-the-grade-teens-top-priority: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 4

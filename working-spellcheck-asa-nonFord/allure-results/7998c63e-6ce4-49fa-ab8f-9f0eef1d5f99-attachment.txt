@@ -1,0 +1,20 @@
+Distinct misspelled words on https://www.teenvoice.com/insights/how-teens-are-using-and-not-using-generative-ai: [
+  'july',            '16',
+  '81',              '--',
+  '41',              'chatgpt',
+  'gemini',          'dall-e',
+  '40',              '17',
+  'theyre',          '15',
+  'alexa',           'siri',
+  'problem-solving', 'theyve',
+  '25',              'isnt',
+  'day-to-day',      '-using',
+  'post-secondary',  '-tapping',
+  'ais',             '-understanding',
+  '-evaluating',     '-defining',
+  'evolveme',        'future-planning'
+]
+Error checking link https://www.teenvoice.com/insights/how-teens-are-using-and-not-using-generative-ai: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 28

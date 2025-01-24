@@ -1,0 +1,58 @@
+Executing link 49 of 65: https://www.teenvoice.com/insights/what-teens-say-social-media-is-doing-to-their-mental-health
+Extracted Page Text: This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. To learn more, view the following link: Privacy Policy
+FEATURES
+INSIGHTS
+ABOUT US
+LOGIN
+GET STARTED
+
+DIGITAL LIFE
+
+What Teens Say Social Media is Doing to Their Mental Health
+
+PUBLISHED DATE: DECEMBER 9, 2024
+
+While top health officials sound alarms about social media’s impact on teens, young people themselves offer a more nuanced perspective. Our nationwide survey of over 2,000 teens reveals they’re aware of the risks but also see benefits. “Social media is a good tool for inspiration,” says a 16-year-old Hispanic male from California. “But when people get hooked on validation online, it gets really unhealthy.”
+Recognizing the Risks
+The numbers are clear: nearly a third of teens believe social media negatively affects mental wellbeing. This awareness extends beyond their personal experiences to concerns about their peers. As a 15-year-old White female from Michigan says, "Previous generations never had this. While they may have had depression or anxiety, there is NOW an epidemic of mental health issues. Coincidence much? I think not."
+
+A 14-year-old White male from Indiana offers an even starker warning: "We are all in our world, but it's not Earth. It's the cyber world. If it doesn't stop soon then a lot of people will continue to be sad."
+Taking Control
+To mitigate feelings of stress and anxiety, many teens are taking charge of managing their social media use. About half find that taking breaks helps them maintain mental wellness. "I started feeling a lot better when I deleted Instagram and Twitter now X," shares a 19-year-old female from New York.
+
+Others have found ways to use these platforms constructively for stress relief and mental health support. As a 16-year-old White female from Illinois explains: "I believe teenagers benefit by being able to interact when they wouldn't."
+Want More Insights?
+If you want a more comprehensive understanding of teen’s social media use, download the full report.
+
+Purchase Full Report
+Want Direct Insights from Teens?
+Use our custom survey builder to define your target audience and connect with engaged teens to get the answers you need.
+
+Connect With Teens Now
+
+Quick Links
+
+SURVEY BUILDER
+INSIGHTS
+FEATURES
+ABOUT US
+FAQ
+LOGIN
+PRIVACY POLICY
+COMMERCIAL TERMS & CONDITIONS
+
+EVOLVEME
+
+a free future-planning site for teens
+
+ⓒ 2024 TeenVoice. All rights reserved.
+Distinct Misspelled Words: [
+  'december',    'theyre',
+  '16-year-old', 'hispanic',
+  'california',  '15-year-old',
+  'michigan',    '14-year-old',
+  'indiana',     'cyber',
+  'instagram',   '19-year-old',
+  'york',        'illinois',
+  'evolveme',    'future-planning'
+]

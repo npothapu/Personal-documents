@@ -1,0 +1,71 @@
+Executing link 47 of 89: https://www.wpp.com/en-us/featured/work/2024/12/syzygy-bmw-motorrad-relaunch
+Extracted Page Text: ABOUT
+INVESTORS
+MEDIA
+CAREERS
+WPP iQ
+WORK
+WPP OPEN
+CONTACTS
+EN (US)
+Search
+SYZYGY: BMW Motorrad's Brand and Product Platform Relaunch
+
+Translating business strategy into a digital brand and product experience
+
+BMW Motorrad sought to translate its business strategy into a new digital brand and product experience. The goal was to integrate new product categories and create a seamless digital ecosystem that enhances customer engagement and satisfaction.
+
+The challenge was to incorporate new product categories such as lifestyle products, enable cross-sales through contextual content, seamlessly integrate sales and CRM tools, and develop new story formats. Additionally, there was a need to define an agile development process with BMW Group IT to continuously optimise and evolve the platform.
+
+SYZYGY did all this and more. Over two years, SYZYGY executed 40 product launches with over 10,000 pages, working in a continuous and efficient workflow for content delivery. By thinking in customer journeys and making data-driven decisions, SYZYGY optimised the digital ecosystem and improved user qualification by tracking interactions across all touchpoints.
+
+Bringing the Fascination to Life: With the new BMW Motorrad brand platform, SYZYGY showcased motorcycling as a lifestyle and put people and their experiences at the centre. Captivating stories and events were designed to bring the product closer to users emotionally and brand, product, lifestyle were skilfully connected to help cross-sell through dynamic content. The brand promise “Make Life a Ride” was always in focus.
+
+The campaign also created personal product experiences that combined captivating stories with unique selling points through exciting perspectives on the motorcycle, vivid sounds and videos that let users experience the ride up close, or through personal configuration. The intelligent tagging system made the seamless combination of brand and product experience possible.
+
+The result was a transformed digital brand and product experiences for BMW Motorrad, enabling continuous optimisation and better user experiences. The collaboration led to a more engaging and seamless digital ecosystem, enhancing customer satisfaction and loyalty.
+
+MORE FROM WORK
+
+  
+DESIGN BRIDGE AND PARTNERS: ASTON MARTIN’S BREAKTHROUGH
+
+Going viral in the entertainment capital of the world
+
+VML'S SCHOLZ & FRIENDS: FRANKFURTER ALLGEMEINE ZEITUNG'S "THE 100TH EDITION"
+
+A milestone marked with a powerful statement
+
+Privacy policy
+Terms & conditions
+Cookies
+Accessibility
+Modern Slavery Act statement
+Contacts
+Right to Speak
+Fraudulent use of WPP's name
+WPP intranet
+Facebook
+Twitter
+Instagram
+LinkedIn
+YouTube
+
+© WPP plc 1999-2025
+
+Use of cookies on WPP.com
+We use cookies to offer you a better browsing experience, analyze site traffic and personalise content. Read about how we use cookies on our Cookie Policy and see how you can control them in Cookies settings.
+Cookies settings Reject all cookies Accept all cookies
+Distinct Misspelled Words: [
+  'wpp',         'iq',         'syzygy',
+  'bmw',         "motorrad's", 'motorrad',
+  'cross-sales', 'crm',        'optimise',
+  '40',          '10000',      'workflow',
+  'data-driven', 'optimised',  'touchpoints',
+  'centre',      'cross-sell', 'optimisation',
+  'aston',       "vml's",      'scholz',
+  'allgemeine',  "zeitung's",  "wpp's",
+  'intranet',    'facebook',   'instagram',
+  'linkedin',    'youtube',    'plc',
+  '1999-2025',   'wppcom',     'personalise'
+]

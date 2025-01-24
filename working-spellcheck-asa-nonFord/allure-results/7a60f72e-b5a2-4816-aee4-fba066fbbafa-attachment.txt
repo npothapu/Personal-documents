@@ -1,0 +1,14 @@
+Distinct misspelled words on https://www.teenvoice.com/insights/what-teens-say-social-media-is-doing-to-their-mental-health: [
+  'december',    'theyre',
+  '16-year-old', 'hispanic',
+  'california',  '15-year-old',
+  'michigan',    '14-year-old',
+  'indiana',     'cyber',
+  'instagram',   '19-year-old',
+  'york',        'illinois',
+  'evolveme',    'future-planning'
+]
+Error checking link https://www.teenvoice.com/insights/what-teens-say-social-media-is-doing-to-their-mental-health: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 16

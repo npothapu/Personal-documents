@@ -1,0 +1,19 @@
+Distinct misspelled words on https://www.wpp.com/en-us/about: [
+  'wpp',            'iq',
+  'market-leading', '100000',
+  'ai',             'organisations',
+  '300',            '500',
+  '100',            'impactful',
+  'state-of-the',   'ground-breaking',
+  'go-to-market',   'recognised',
+  'cannes',         '2024',
+  "wpp's",          'intranet',
+  'facebook',       'instagram',
+  'linkedin',       'youtube',
+  'plc',            '1999-2025',
+  'wppcom',         'personalise'
+]
+Error checking link https://www.wpp.com/en-us/about: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 26

@@ -1,0 +1,17 @@
+Distinct misspelled words on https://www.wpp.com/en-us/featured/work/2024/12/syzygy-bmw-motorrad-relaunch: [
+  'wpp',         'iq',         'syzygy',
+  'bmw',         "motorrad's", 'motorrad',
+  'cross-sales', 'crm',        'optimise',
+  '40',          '10000',      'workflow',
+  'data-driven', 'optimised',  'touchpoints',
+  'centre',      'cross-sell', 'optimisation',
+  'aston',       "vml's",      'scholz',
+  'allgemeine',  "zeitung's",  "wpp's",
+  'intranet',    'facebook',   'instagram',
+  'linkedin',    'youtube',    'plc',
+  '1999-2025',   'wppcom',     'personalise'
+]
+Error checking link https://www.wpp.com/en-us/featured/work/2024/12/syzygy-bmw-motorrad-relaunch: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 33

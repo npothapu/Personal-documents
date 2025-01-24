@@ -1,0 +1,17 @@
+Distinct misspelled words on https://www.teenvoice.com/insights/youll-be-surprised-by-these-facts-about-teens-and-ai: [
+  'youll',          'july',
+  '17',             '90',
+  '64',             'genai',
+  '37',             'human-generated',
+  'self-aware',     'terminator-style',
+  'computer-based', 'tiktok',
+  '-avoid',         '-when',
+  'andor',          '-offer',
+  'real-world',     '-if',
+  'aiwhat',         'isnt',
+  'evolveme',       'future-planning'
+]
+Error checking link https://www.teenvoice.com/insights/youll-be-surprised-by-these-facts-about-teens-and-ai: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 22

@@ -1,0 +1,74 @@
+Executing link 48 of 65: https://www.teenvoice.com/insights/three-ways-adults-completely-misunderstand-teens-digital-lives
+Extracted Page Text: This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. To learn more, view the following link: Privacy Policy
+FEATURES
+INSIGHTS
+ABOUT US
+LOGIN
+GET STARTED
+
+TEEN LIFE
+
+Three Ways Adults Completely Misunderstand Teens’ Digital Lives
+
+PUBLISHED DATE: DECEMBER 13, 2024
+
+Adults think they've got teens figured out: constantly scrolling, obsessed with trends, and living online. But teens tell a very different story.
+
+We surveyed over 1,000 teens and 1,000 adults and uncovered a surprising disconnect between how teens think about and use technology versus what adults assume about their digital lives.
+1. What Teens Value vs. What Adults Assume
+Most teens (71%) say they value doing well in school above all else, followed by spending time with family (65%) and friends (57%). Social media (33%) and video/mobile games (26%) rank much lower on their list of priorities.
+
+Adults, however, see it differently. They believe teens prioritize social media (64%) and gaming (64%) far more, significantly underestimating their focus on academics and family.
+2. The Content Teens Actually Like
+Adults also miss the mark when it comes to the content teens consume. While many adults assume teens are fixated on viral trends, gaming, or trending audio, fewer than a quarter of teens care about trending audio (22%) or internet dances (21%).
+
+Instead, teens gravitate toward content that reflects their interests (40%) or makes them laugh, like memes (39%).
+3. How Much Time Teens Spend Online
+Yes, technology plays a significant role in teens’ lives—how could it not? Teens report spending an average of six and a half hours online daily, which aligns with the “glued to their phones” stereotype.
+
+But adults overestimate even this, believing teens are online for over an hour and a half longer. This gap in perception reinforces assumptions that teens value digital activities above all else when, in reality, their time online is purposeful. Teens use technology to connect, learn, and entertain themselves—not as an all-consuming obsession but as a natural extension of life.
+
+“Social media and staying connected aren’t just distractions,” says a 15-year-old White female from Illinois. “They’re a big part of how we support each other.”
+Why This Disconnect Matters
+Misunderstanding teens’ relationship with technology can lead to missed opportunities for connection. Brands that rely on stereotypes risk creating tone-deaf campaigns that fail to resonate with their audience. (Learn how to create content teens love.)
+
+The real challenge isn’t teens’ use of technology—it’s helping adults understand that relationship. Misjudging teens’ digital habits affects connections at home, in schools, and in campaigns. Adults can bridge the generation gap and foster authentic relationships by moving beyond stereotypes and truly listening to teens.
+
+Want to dig deeper into teens' digital lives? [Download the Full Report]
+
+Need insights tailored to your business?
+Use our custom survey builder to get the answers you need.
+[Connect With Teens Now]
+
+Quick Links
+
+SURVEY BUILDER
+INSIGHTS
+FEATURES
+ABOUT US
+FAQ
+LOGIN
+PRIVACY POLICY
+COMMERCIAL TERMS & CONDITIONS
+
+EVOLVEME
+
+a free future-planning site for teens
+
+ⓒ 2024 TeenVoice. All rights reserved.
+Distinct Misspelled Words: [
+  'december',      '13',
+  '1000',          '71',
+  '65',            '57',
+  '33',            'videomobile',
+  '26',            '64',
+  '22',            '21',
+  '40',            'memes',
+  '39',            'liveshow',
+  'themselvesnot', 'all-consuming',
+  'arent',         '15-year-old',
+  'illinois',      'theyre',
+  'tone-deaf',     'isnt',
+  'technologyits', "teens'",
+  'evolveme',      'future-planning'
+]

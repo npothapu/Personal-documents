@@ -1,0 +1,22 @@
+Distinct misspelled words on https://www.teenvoice.com/insights/teen-voice-article-teens-and-social-media-its-complicated: [
+  'october',    '23',              'screensits',
+  '2004',       'double-edged',    '16-year-old',
+  'hispanic',   'california',      'butwhatever',
+  '98',         'tiktok',          'instagram',
+  'goodmost',   '64',              '48',
+  '47',         'washington',      'momentsand',
+  'fomo',       '44',              '31',
+  '30',         '28',              'lgbtq',
+  'asian',      'dr',              'vivek',
+  'murthy',     'american',        'apa',
+  'well-being', 'cigarette-style', '15-year-old',
+  'michigan',   '14-year-old',     'indiana',
+  'cyber',      'doesnt',          '19-year-old',
+  'york',       'itsused',         'illinois',
+  'wouldnt',    'self-service',    'april',
+  '6000',       'evolveme',        'future-planning'
+]
+Error checking link https://www.teenvoice.com/insights/teen-voice-article-teens-and-social-media-its-complicated: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 48

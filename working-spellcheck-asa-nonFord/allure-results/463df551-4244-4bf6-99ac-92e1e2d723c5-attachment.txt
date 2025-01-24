@@ -1,0 +1,13 @@
+Distinct misspelled words on https://www.teenvoice.com/reports/digital-youth-strategic-insights-for-nonprofits: [
+  '150000',        'excltax',
+  'non-profit',    'decision-makers',
+  'real-life',     'technologys',
+  'real-world',    'mission-driven',
+  'teen-friendly', 'deep-dive',
+  '40',            'phds',
+  'evolveme',      'future-planning'
+]
+Error checking link https://www.teenvoice.com/reports/digital-youth-strategic-insights-for-nonprofits: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 14

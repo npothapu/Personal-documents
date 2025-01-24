@@ -1,0 +1,19 @@
+Distinct misspelled words on https://www.teenvoice.com/insights/how-teens-can-help-share-your-message: [
+  'july',
+  '17',
+  'theyre',
+  '-focus',
+  '-reach',
+  'non-personal',
+  '-choose',
+  '-invite',
+  '-offer',
+  '-consider',
+  'age-inappropriate',
+  'evolveme',
+  'future-planning'
+]
+Error checking link https://www.teenvoice.com/insights/how-teens-can-help-share-your-message: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 13
