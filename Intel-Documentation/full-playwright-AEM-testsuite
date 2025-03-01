@@ -1,0 +1,223 @@
+Need a full Playwright test suite for AEM? Let me know! ??
+
+
+
+
+
+
+You said:
+yes
+ChatGPT said:
+Here’s a complete Playwright test suite for Adobe Experience Manager (AEM) websites covering:
+
+? Component-Based UI Testing
+? API Testing for AEM Content
+? AEM Authoring & Publish Mode Testing
+? Mobile & Cross-Browser Testing
+? Performance & Accessibility Testing
+
+?? 1?? Project Setup
+A. Install Playwright & Dependencies
+sh
+Copy
+Edit
+npm init -y
+npm install --save-dev @playwright/test axe-playwright lighthouse
+npx playwright install --with-deps
+B. Playwright Configuration (playwright.config.ts)
+ts
+Copy
+Edit
+import { defineConfig } from '@playwright/test';
+
+export default defineConfig({
+  timeout: 60000,
+  use: {
+    baseURL: 'https://your-aem-site.com',
+    trace: 'on',
+    video: 'on',
+    screenshot: 'on',
+  },
+  projects: [
+    { name: 'chromium', use: { browserName: 'chromium' } },
+    { name: 'firefox', use: { browserName: 'firefox' } },
+    { name: 'webkit', use: { browserName: 'webkit' } },
+    { name: 'Mobile Chrome', use: { browserName: 'chromium', ...require('playwright').devices['Pixel 5'] } },
+    { name: 'Mobile Safari', use: { browserName: 'webkit', ...require('playwright').devices['iPhone 12'] } },
+  ],
+});
+? 2?? UI Testing for AEM Components
+?? Example: Validate Header Component
+ts
+Copy
+Edit
+import { test, expect } from '@playwright/test';
+
+test('Check AEM Header Component', async ({ page }) => {
+  await page.goto('/');
+  
+  const header = page.locator('.cmp-header__title');
+  await expect(header).toBeVisible();
+  await expect(header).toHaveText('Welcome to AEM');
+});
+?? Example: Validate Navigation Menu
+ts
+Copy
+Edit
+test('Verify AEM Navigation Menu', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('.cmp-navigation__trigger').click();
+  
+  const menu = page.locator('.cmp-navigation__list');
+  await expect(menu).toBeVisible();
+});
+?? 3?? API Testing for AEM Content
+?? Example: Validate AEM Content API
+ts
+Copy
+Edit
+test('Validate AEM Page Metadata API', async ({ request }) => {
+  const response = await request.get('/content/mysite/en.json');
+  expect(response.status()).toBe(200);
+
+  const body = await response.json();
+  expect(body.title).toBe('Welcome to AEM');
+});
+?? Example: Validate Personalization API
+ts
+Copy
+Edit
+test('Validate AEM Personalization API', async ({ request }) => {
+  const response = await request.get('/api/personalization/user123');
+  expect(response.status()).toBe(200);
+
+  const body = await response.json();
+  expect(body.recommendations.length).toBeGreaterThan(0);
+});
+?? 4?? AEM Authoring Mode Testing
+?? Example: Verify AEM Dialogs
+ts
+Copy
+Edit
+test('Open AEM Component Dialog', async ({ page }) => {
+  await page.goto('https://your-aem-author-instance.com');
+
+  const editButton = page.locator('.cq-edit-button');
+  await editButton.click();
+
+  const dialog = page.locator('.cq-dialog');
+  await expect(dialog).toBeVisible();
+});
+?? 5?? Mobile & Cross-Browser Testing
+?? Example: Validate Mobile View
+ts
+Copy
+Edit
+test.use({ viewport: { width: 375, height: 812 } });
+
+test('Mobile Navigation Test', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('.hamburger-menu').click();
+  
+  const mobileMenu = page.locator('.mobile-nav');
+  await expect(mobileMenu).toBeVisible();
+});
+?? 6?? Performance & Accessibility Testing
+?? Example: Run Lighthouse Performance Audit
+sh
+Copy
+Edit
+lighthouse https://your-aem-site.com --output json --output html --chrome-flags="--headless"
+?? Example: Run Accessibility Test using Axe
+ts
+Copy
+Edit
+import { injectAxe, checkA11y } from 'axe-playwright';
+
+test('Accessibility Check', async ({ page }) => {
+  await page.goto('/');
+  await injectAxe(page);
+  await checkA11y(page);
+});
+?? 7?? CI/CD Integration (GitHub Actions)
+?? .github/workflows/playwright-ci.yml
+yaml
+Copy
+Edit
+name: Playwright AEM Automation
+
+on:
+  push:
+    branches:
+      - main
+      - qa
+  pull_request:
+    branches:
+      - main
+      - qa
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  playwright-tests:
+    runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.40.0-focal
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Install Dependencies
+      run: npm ci
+
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+
+    - name: Run Playwright Tests (Web + Mobile + API)
+      run: |
+        npx playwright test --project="chromium"
+        npx playwright test --project="Mobile Chrome"
+        npx playwright test --grep @api
+
+    - name: Upload Test Reports
+      uses: actions/upload-artifact@v3
+      with:
+        name: playwright-test-reports
+        path: playwright-report/
+
+    - name: Notify on Failure
+      if: failure()
+      run: |
+        curl -X POST -H 'Content-type: application/json' --data '{"text":"Playwright Tests Failed ?? Check Reports: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions"}' ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  deploy-aem:
+    needs: playwright-tests
+    if: success()
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout AEM Repo
+      uses: actions/checkout@v3
+      with:
+        repository: my-org/aem-project
+
+    - name: Deploy to AEM via Cloud Manager
+      run: |
+        curl -X POST "https://cloudmanager.adobe.io/api/programs/{PROGRAM_ID}/pipelines/{PIPELINE_ID}/execution" \
+        -H "Authorization: Bearer ${{ secrets.AEM_ACCESS_TOKEN }}" \
+        -H "x-api-key: ${{ secrets.AEM_API_KEY }}" \
+        -H "Content-Type: application/json"
+?? Summary
+Test Type	Tool	Purpose
+UI Testing	? Playwright	Validate AEM components
+API Testing	? Playwright API	Verify content & personalization
+AEM Authoring Tests	? Playwright	Check dialogs, overlays, & edit mode
+Mobile Testing	? Playwright	Simulate iOS & Android views
+Performance Testing	? Lighthouse	Ensure fast load times
+Accessibility Testing	? axe-core	Check WCAG compliance
+?? Next Steps
+? Want Real Device Testing? Use BrowserStack / Sauce Labs
+? Need Performance Testing? Add JMeter for Load Testing
+? Want to extend CI/CD? Integrate with Jenkins / GitHub Actions
+

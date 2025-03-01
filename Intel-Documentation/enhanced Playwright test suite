@@ -1,0 +1,261 @@
+?? Next Steps
+? Want Real Device Testing? Use BrowserStack / Sauce Labs
+? Need Performance Testing? Add JMeter for Load Testing
+? Want to extend CI/CD? Integrate with Jenkins / GitHub Actions
+
+This AEM Playwright test suite is fast, reliable, and scalable. ??
+Let me know if you need enhancements or customizations! ??
+
+
+
+
+
+
+
+
+You said:
+yes also add real device testing, performance testing and extend ci/cd with jenkins github actions
+ChatGPT said:
+Here's an enhanced Playwright test suite for Adobe Experience Manager (AEM) testing that includes:
+
+? Real Device Testing (BrowserStack/Sauce Labs)
+? Performance Testing (Lighthouse & JMeter)
+? CI/CD Extension (Jenkins + GitHub Actions)
+
+1?? Real Device Testing with BrowserStack/Sauce Labs
+?? Setup for Real Devices
+Sign up for BrowserStack or Sauce Labs.
+Get your Access Key & Username.
+Store them as secrets in GitHub or Jenkins.
+?? Modify playwright.config.ts for Real Device Testing
+ts
+Copy
+Edit
+import { defineConfig } from '@playwright/test';
+
+export default defineConfig({
+  timeout: 60000,
+  use: {
+    baseURL: 'https://your-aem-site.com',
+    trace: 'on',
+    video: 'on',
+    screenshot: 'on',
+  },
+  projects: [
+    { name: 'chromium', use: { browserName: 'chromium' } },
+    { name: 'firefox', use: { browserName: 'firefox' } },
+    { name: 'webkit', use: { browserName: 'webkit' } },
+    { name: 'Mobile Chrome', use: { browserName: 'chromium', ...require('playwright').devices['Pixel 5'] } },
+    { name: 'Mobile Safari', use: { browserName: 'webkit', ...require('playwright').devices['iPhone 12'] } },
+    {
+      name: 'BrowserStack iPhone 13',
+      use: {
+        browserName: 'webkit',
+        viewport: { width: 390, height: 844 },
+        connectOptions: {
+          wsEndpoint: `wss://cdp.browserstack.com/playwright?accessKey=${process.env.BROWSERSTACK_ACCESS_KEY}`,
+        },
+      },
+    },
+    {
+      name: 'Sauce Labs Android Galaxy S21',
+      use: {
+        browserName: 'chromium',
+        viewport: { width: 412, height: 915 },
+        connectOptions: {
+          wsEndpoint: `wss://ondemand.saucelabs.com:443/playwright?accessKey=${process.env.SAUCE_ACCESS_KEY}`,
+        },
+      },
+    },
+  ],
+});
+?? Running Real Device Tests
+sh
+Copy
+Edit
+BROWSERSTACK_ACCESS_KEY=your_key SAUCE_ACCESS_KEY=your_key npx playwright test --project="BrowserStack iPhone 13"
+2?? Performance Testing with Lighthouse & JMeter
+A. Lighthouse Performance Testing
+?? Install Lighthouse
+sh
+Copy
+Edit
+npm install -g lighthouse
+?? Run Lighthouse in CLI
+sh
+Copy
+Edit
+lighthouse https://your-aem-site.com --output json --output html --chrome-flags="--headless"
+?? Integrate Lighthouse into Playwright
+ts
+Copy
+Edit
+import { test, expect } from '@playwright/test';
+import lighthouse from 'lighthouse';
+import chromeLauncher from 'chrome-launcher';
+
+test('Lighthouse Performance Test', async ({ page }) => {
+  const chrome = await chromeLauncher.launch({ chromeFlags: ['--headless'] });
+  const result = await lighthouse('https://your-aem-site.com', {
+    port: chrome.port,
+    output: 'html',
+  });
+  console.log(result.lhr.categories.performance.score);
+  await chrome.kill();
+});
+B. Load Testing with JMeter
+?? Install JMeter
+Download JMeter.
+Install JMeter Plugins Manager.
+?? Sample JMeter Test Plan
+Open JMeter.
+Create Thread Group:
+Users: 50
+Ramp-up Time: 10s
+Loop Count: 2
+Add HTTP Request:
+URL: https://your-aem-site.com
+Add Listeners:
+View Results Tree
+Aggregate Report
+?? Run JMeter Test in CLI
+sh
+Copy
+Edit
+jmeter -n -t aem-load-test.jmx -l results.jtl -e -o reports
+3?? CI/CD: Extend with Jenkins + GitHub Actions
+A. GitHub Actions with Real Devices & Performance Testing
+?? .github/workflows/playwright-ci.yml
+yaml
+Copy
+Edit
+name: Playwright AEM Automation
+
+on:
+  push:
+    branches:
+      - main
+      - qa
+  pull_request:
+    branches:
+      - main
+      - qa
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  playwright-tests:
+    runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.40.0-focal
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Install Dependencies
+      run: npm ci
+
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+
+    - name: Run Playwright Tests (Web + Mobile + API)
+      env:
+        BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+        SAUCE_ACCESS_KEY: ${{ secrets.SAUCE_ACCESS_KEY }}
+      run: |
+        npx playwright test --project="chromium"
+        npx playwright test --project="BrowserStack iPhone 13"
+        npx playwright test --grep @api
+
+    - name: Run Lighthouse Performance Test
+      run: lighthouse https://your-aem-site.com --output json --output html --chrome-flags="--headless"
+
+    - name: Upload Test Reports
+      uses: actions/upload-artifact@v3
+      with:
+        name: playwright-test-reports
+        path: playwright-report/
+
+    - name: Notify on Failure
+      if: failure()
+      run: |
+        curl -X POST -H 'Content-type: application/json' --data '{"text":"Playwright Tests Failed ?? Check Reports: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions"}' ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  deploy-aem:
+    needs: playwright-tests
+    if: success()
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout AEM Repo
+      uses: actions/checkout@v3
+      with:
+        repository: my-org/aem-project
+
+    - name: Deploy to AEM via Cloud Manager
+      run: |
+        curl -X POST "https://cloudmanager.adobe.io/api/programs/{PROGRAM_ID}/pipelines/{PIPELINE_ID}/execution" \
+        -H "Authorization: Bearer ${{ secrets.AEM_ACCESS_TOKEN }}" \
+        -H "x-api-key: ${{ secrets.AEM_API_KEY }}" \
+        -H "Content-Type: application/json"
+B. Extend with Jenkins
+?? Install Jenkins Plugins
+Git Plugin – Clone the repo.
+Allure Plugin – Generate test reports.
+Slack Plugin – Send test status.
+?? Jenkins Pipeline for Playwright
+groovy
+Copy
+Edit
+pipeline {
+    agent any
+    environment {
+        BROWSERSTACK_ACCESS_KEY = credentials('browserstack-key')
+        SAUCE_ACCESS_KEY = credentials('sauce-key')
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/your-repo/aem-tests.git'
+            }
+        }
+        stage('Install Dependencies') {
+            steps {
+                sh 'npm ci'
+            }
+        }
+        stage('Run Playwright Tests') {
+            steps {
+                sh 'npx playwright test --project="chromium"'
+                sh 'npx playwright test --project="BrowserStack iPhone 13"'
+                sh 'npx playwright test --grep @api'
+            }
+        }
+        stage('Run Performance Tests') {
+            steps {
+                sh 'lighthouse https://your-aem-site.com --output json --output html --chrome-flags="--headless"'
+            }
+        }
+        stage('Deploy to AEM') {
+            steps {
+                sh 'curl -X POST "https://cloudmanager.adobe.io/api/programs/{PROGRAM_ID}/pipelines/{PIPELINE_ID}/execution"'
+            }
+        }
+    }
+    post {
+        always {
+            archiveArtifacts artifacts: 'playwright-report/**'
+        }
+    }
+}
+?? Summary
+Feature	Tool
+Real Device Testing	? BrowserStack, Sauce Labs
+Performance Testing	? Lighthouse, JMeter
+CI/CD	? GitHub Actions, Jenkins
+This setup ensures scalability, reliability, and high test coverage. 
+
+
+
+
