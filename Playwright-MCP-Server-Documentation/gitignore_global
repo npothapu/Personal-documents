@@ -1,0 +1,38 @@
+########################################
+# Local MCP server setup (private)
+########################################
+.mcp/
+.mcpServers/
+mcp-config.json
+mcp.json
+mcp.local.json
+mcp.local.*
+mcp.env
+mcp-*.yaml
+mcp-servers/
+.mcp-cache/
+
+########################################
+# Common local-only files (safe)
+########################################
+# OS cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editors / merges
+*.swp
+*.swo
+*.orig
+
+# Env & logs
+.env
+.env.*
+*.log
+logs/
+
+# VS Code (optional)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json

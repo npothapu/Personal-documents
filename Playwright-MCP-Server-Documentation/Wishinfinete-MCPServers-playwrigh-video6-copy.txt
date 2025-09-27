@@ -1,0 +1,39 @@
+Agent:
+Take my feature files, and run all the scenarios with playwrigh mcp server, performing the browser actions described
+in all the secnarios.
+Note: I want to directly execute test scenarios in chrome browser using playwright MCP server and Do not generate script.
+
+--------------------------------------------------------
+File under feature folder: forms.feature
+Feature: Verify Forms functionality on WishInfinite
+
+Scenario: Verify form submission with valid data
+    Given I navigate to the forms section under the playground tab
+    When I fill in the form with valid data
+    And I submit the form
+    Then I should see a success message
+
+Scenario: Verify form submission with invalid data
+    Given I navigate to the forms section under the playground tab
+    When I fill in all the required form with relevant data
+    And I submit the form
+    Then I should see a confirmation that the form was submitted successfully
+	
+----------------------------------------------------------------------
+File under feature folder: ecom-app.feature
+Feature: Verify E-commerce App functionality on WishInfinite
+
+Scenario: Verify Successful login with valid credentials
+    Given I navigate to the E-Commerce App under the playground tab
+    When I enter valid login credentials
+    And I submit the login form
+    Then I should see a successful login confirmation
+
+Scenario: Verify successfully place two orders and validate them
+    Given I navigate to the E-Commerce App under the playground tab
+    And I submit the login form
+    When I place two items in the order
+    Then I should see those two items listed under my orders
+    And I log out of the application
+	
+---------------------------------------------------------------

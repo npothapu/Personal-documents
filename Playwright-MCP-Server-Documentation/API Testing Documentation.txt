@@ -1,0 +1,31 @@
+URL to Practice:
+
+execute playwright mcp server for api testing url: https://github.com/executeautomation/mcp-playwright
+
+copy the code in file at path C:\Users\nkuma\AppData\Roaming\Code\User>mcp.json
+{
+	"servers": {
+		"playwright": {
+			"command": "npx",
+			"args": [
+				"@executeautomation/playwright-mcp-server"
+			]
+		},
+			
+		"playwright Execute Automation for API": {
+			"command": "npx",
+			"args": ["-y", "@executeautomation/playwright-mcp-server"]
+			},
+	
+		"figma/dev-mode-mcp-server": {
+			"type": "http",
+			"url": "http://127.0.0.1:{figma_mcp_port}/mcp",
+			"gallery": "https://api.mcp.github.com/v0/servers/26cb5bb7-a100-4f25-9a92-086ba4037345",
+			"version": "1.0.0"
+		}
+
+	},
+	"inputs": []
+}
+
+API Test Practice url with all scenarions URL: https://fakerestapi.azurewebsites.net/index.html
